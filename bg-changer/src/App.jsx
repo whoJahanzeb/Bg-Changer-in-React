@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
 function App() {
-  const [color, setColor] = useState("olive");
+  const [color, setColor] = useState("skyblue");
 
   return (
     <div
@@ -53,6 +53,13 @@ function App() {
             style={{ backgroundColor: "gray" }}
           >
             Gray
+          </button>
+          <button
+            onClick={() => setColor("olive")}
+            className="outline-none px-4 rounded-full py-1 shadow-lg text-white"
+            style={{ backgroundColor: "olive" }}
+          >
+            Olive
           </button>
           <button
             onClick={() => setColor("black")}
