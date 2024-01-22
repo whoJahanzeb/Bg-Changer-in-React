@@ -47,6 +47,13 @@ function App() {
           >
             Pink
           </button>
+          <button
+            onClick={() => setColor("black")}
+            className="outline-none px-4 rounded-full py-1 shadow-lg"
+            style={{ backgroundColor: "black" }}
+          >
+            Black
+          </button>
         </div>
       </div>
     </div>
